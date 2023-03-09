@@ -1,0 +1,37 @@
+
+.distance {
+  position: relative;
+  display: flex;
+  margin-right: 10px;
+}
+
+.start-position {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+
+.engine-status {
+  visibility: hidden;
+  color: rgb(250, 0, 0);
+}
+
+.active {
+  visibility: visible;
+}
+
+@keyframes race {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(var(--t));
+  }
+}

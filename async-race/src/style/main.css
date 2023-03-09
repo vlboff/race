@@ -1,0 +1,4 @@
+@import './_normalize.css';
+@import '../components/carBlock/_carBlock.css';
+@import '../components/garage/_garage.css';
+@import '../components/winnersList/_winners.css'
